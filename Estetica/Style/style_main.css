@@ -369,7 +369,7 @@ nav {
   color: white;
 }
 #galeria_servicios:hover #cajatexto1 {
-  transform: translateY(-150px);
+  transform: translateY(-8vw);
 }
 #galeria_servicios:hover #img {
   scale: 1.2;
@@ -425,7 +425,7 @@ a {
   color: white;
 }
 #galeria_productos:hover #cajatexto2 {
-  transform: translateY(-180px);
+  transform: translateY(-9.5vw);
 }
 #galeria_productos:hover #img2 {
   scale: 1.2;
