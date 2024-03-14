@@ -5,6 +5,9 @@
     font-size: 1vw;
     font-family: "Josefin Sans";
   }
+  :root{
+    --color-dark-divs-opacity: rgb(82, 82, 82);
+  }
   html {
     scroll-behavior: smooth;
     scrollbar-color: rgb(192, 192, 192) var(--color-dark-divs-opacity);

@@ -13,9 +13,15 @@
     --color-normal-divs: rgba(32, 77, 161, 0.87);
     --degradado-1: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(48, 48, 48, 0.568), rgba(43, 43, 43, 0));
 }
+html{
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
 body{
 width: 100%;
 height: 100vh;
+overflow-y: scroll;
+background-color: rgb(15, 15, 15);
 }
 #lupa{
     filter: brightness(100);
@@ -34,60 +40,7 @@ height: 100vh;
     backdrop-filter: blur(50px);
     z-index: 2;
     overflow: hidden;
-    }
-    #quick_acces{
-      position: fixed;
-      margin-top: 12vh;
-      border-radius: 0 0 2vw 2vw;
-      backdrop-filter: blur(20px);
-      margin-left: 89vw;
-      background-color: rgba(51, 51, 51, 0.493);
-      width: 5vw;
-      height: 4vw;
-      padding-top: 1vh;
-      overflow: hidden;
-      z-index: 2;
-      transition-duration: .5s;
-    }
-    #quick_acces ul{
-      display: flex;
-      flex-direction: column;
-      margin-left: 1.4vw;
-      gap: 3vh;
-    }
-    .text-list{
-      font-size: 2vw;
-      color: white;
-      transition-duration: 1s;
-    }
-    .text-list:hover{
-      scale: 1.1;
-      transition-duration: .5s;
-    }
-    #quick_acces:hover{
-      transform: translate(-12.5vw);
-      width: 18vw;
-      height: 50vh;
-      padding-left: 1vw;
-    }
-    #quick_acces:hover #barras{
-    margin-left: 2.5vw;
-    opacity: 1;
-    scale: 1.1;
-    transform: translate(9vw);
-    }
-    #barras{
-      margin-left: 1.3vw;
-      margin-top: -1vh;
-      width: 2.5vw;
-      cursor: pointer;
-      margin-bottom: 1vw;
-      transition-duration: .5s;
-      opacity: .5;
-    }
-    #Registrate-Clientes{
-  scroll-margin-top: 17vh;
-    }
+  }
   #Logo {
     margin-left: 2.5vw;
   }
@@ -218,6 +171,7 @@ height: 100vh;
     gap: 1vw;
   }
 main{
+  margin-top: 10vh;
     width: 100%;
     height: 88vh;
     background-size: cover;
@@ -226,10 +180,7 @@ main{
     width: 86%;
     z-index: -1;
 }
-body{
-    overflow: hidden;
-    background-color: rgb(15, 15, 15);
-}
+
 #backdiv{
     display: flex;
     justify-content: center;
@@ -459,4 +410,46 @@ a{
     color: white;
     font-size: 2vw;
     font-weight: 300;
+}
+footer {
+  margin-top: -10vh;
+  width: 100%;
+  height: 24vh;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+#About_us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16vw;
+  height: 10vh;
+  margin-left: 30vw;
+  margin-right: 5vw;
+}
+#acerca_de_ {
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+}
+#lineaSimple2 {
+  border: 0.5px solid white;
+  height: 15vh;
+}
+#others {
+  margin-left: 4vw;
+}
+#Copyright {
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+}
+#linkacercade:hover {
+  scale: 1.05;
+  color: rgba(255, 255, 255, 0.527);
+}
+#linkacercade {
+  width: 10vw;
+  transition-duration: 0.5s;
 }

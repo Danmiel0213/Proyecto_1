@@ -52,6 +52,7 @@ main {
   margin-right: -3.2vw;
 }
 header{
+  z-index: 2;
   background-color: rgba(61, 61, 61, 0.445);
   position: fixed;
   gap:2vw;
@@ -61,7 +62,6 @@ header{
   height: 12vh;
   padding-top: 1vh;
   backdrop-filter: blur(50px);
-  z-index: 2;
   overflow: hidden;
   }
   #quick_acces{
@@ -77,6 +77,7 @@ header{
     overflow: hidden;
     z-index: 2;
     transition-duration: .5s;
+    
   }
   #quick_acces ul{
     display: flex;
@@ -589,3 +590,4 @@ footer {
   width: 10vw;
   transition-duration: 0.5s;
 }
+
