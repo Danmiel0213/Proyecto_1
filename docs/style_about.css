@@ -267,7 +267,7 @@ main{
     margin-left: 8vw;
     box-shadow: 0 0 20px;
     overflow: hidden;
-    background-image: url(./../Imagenes/vantana.jpg);
+    background-image: url(./vantana.jpg);
 background-size: cover;
 }
 #img1 img{
@@ -323,7 +323,7 @@ margin-bottom: 5vw;
         margin-top: 7vh;
         width: 34vw;
         height: 80vh;
-        background-image: url(./../Imagenes/questionmark.png);
+        background-image: url(./questionmark.png);
         backdrop-filter: blur(7px);
         box-shadow: 0 0 30px;
         display: flex;
