@@ -271,16 +271,17 @@ transform: translate(9vw);
   
   }
   #Pianos img{
-  width: 19.5vw;
+  width: 22.5vw;
   transition-duration: .5s;
   }
   .imagens{
     margin: 1vw;
-    height: 20vw;
+    height: 22.5vw;
     z-index: -1;
     border: 5px solid black;
     border-radius: 20px;
-    width: 20vw;
+    width: 22.5vw;
+    cursor: default;
 
     animation: reveal linear both;
     animation-timeline: view();
